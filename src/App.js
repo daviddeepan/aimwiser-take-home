@@ -9,7 +9,7 @@ function App() {
 			<Router>
 				<Routes>
 					<Route exact path="/" element={<HomeScreen />} />
-					<Route path="*" element={<EventScreen />} />
+					<Route path="/event/:event_name" element={<EventScreen />} />
 				</Routes>
 			</Router>
 		</div>

@@ -25,7 +25,7 @@ export default function EventList({ endpoint }) {
 	}, [endpoint]);
 
 	const tonavigate = (event_name) => {
-		navigate(`/${event_name}`);
+		navigate(`/event/${event_name}`);
 	};
 
 	return (
