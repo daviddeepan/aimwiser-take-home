@@ -10,7 +10,7 @@ export default function EventScreen() {
 
 	return (
 		<div className="container mt-5 mb-5 p-5 ">
-			<h2 className="mt -5 mb-5">You are viewing the event page....</h2>
+			<h2 className="mt -5 mb-5">You are viewing this event page....</h2>
 			<Button onClick={() => tonavigate()} variant="primary">
 				Back
 			</Button>
