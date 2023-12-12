@@ -24,4 +24,4 @@ You may also see any lint errors in the console.
 
 Launched backend api server consisting of dummy data to preview on the page.
 
-
+Also make sure json-server is installed.
