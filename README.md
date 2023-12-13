@@ -20,8 +20,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `json-server --watch mockdata.json --port 5000`
+### `json-server --watch mockdata.json --port PORT`
 
 Launched backend api server consisting of dummy data to preview on the page.
+
+Make sure 'json-server' is installed.
 
 Also make sure json-server is installed.
