@@ -24,6 +24,6 @@ You may also see any lint errors in the console.
 
 Launched backend api server consisting of dummy data to preview on the page.
 
-Make sure 'json-server' is installed.
+Make sure 'json-server' is installed. Change PORT to port number.
 
 Also make sure json-server is installed.
