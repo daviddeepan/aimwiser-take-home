@@ -31,11 +31,7 @@ export default function EventList({ endpoint }) {
 	return (
 		<div>
 			{events.map((event) => (
-				<Card
-					key={event.id}
-					className="mt-1 mb-1"
-					style={({ width: "30rem" }, { overflow: "auto" })}
-				>
+				<Card className="mt-1 mb-1" style={{ width: "30rem" }}>
 					<Card.Body>
 						<Card.Title>{event.name}</Card.Title>
 						<Card.Subtitle className="mb-2 text-muted">
@@ -44,7 +40,7 @@ export default function EventList({ endpoint }) {
 						<Card.Subtitle className="mb-2 text-muted">
 							{event.location}
 						</Card.Subtitle>
-						<Card.Text>{event.description}</Card.Text>
+						<Card.Text style={{ whiteSpace: 'pre-line' }}>{event.description}</Card.Text>
 						<Button
 							onClick={() => tonavigate(event.name)}
 							variant="primary"
